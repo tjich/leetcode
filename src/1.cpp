@@ -1,5 +1,6 @@
 #include <vector>
 #include <algorithm>
+#include <unordered_map>
 using namespace std;
 
 // 最简便版本
@@ -68,4 +69,16 @@ public:
     }
     return result;
   }
+};
+
+// hash
+class Solution3
+{
+public:
+    vector<int> twoSum(vector<int>& nums, int target)
+    {
+        vector<int> result;
+        
+        return result;
+    }
 };
